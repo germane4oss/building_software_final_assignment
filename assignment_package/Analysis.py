@@ -5,6 +5,7 @@ import yaml
 import argparse
 import requests
 import json
+import logging
 
 
 class Analysis():
@@ -39,7 +40,7 @@ class Analysis():
             github_response = requests.get(self.config['url'], headers=headers)
 
         except requests.exceptions.ConnectionError:
-            print('Unable to retrieve Information from GitHub')
+            logging.warning('Unable to retrieve Information from GitHub') 
 
         self.raw_data = github_response
         
