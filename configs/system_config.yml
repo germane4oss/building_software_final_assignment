@@ -1,1 +1,4 @@
-data_path: /path/to/data
+url : 'https://api.github.com/search/repositories?q=stars:>1&sort=stars&order=desc'
+xlabel : 'stars'
+ylabel : 'repository'
+title : 'Top repositories in GutHub per number of stars'
