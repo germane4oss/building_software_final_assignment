@@ -1,10 +1,6 @@
 # Manual testing
 
-## Test 1
-* Point form description of testing procedure
-
-## Test 2
-* Execute `plot_my_stuff()`
-* Check that the plot matches .....
-
-* 
+## Test 
+    1. Add your Guthub Personal Access token to configs/system_config.yml file
+    2. execute `python tests.py` 
+ 
