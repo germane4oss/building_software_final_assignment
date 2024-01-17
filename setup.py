@@ -6,5 +6,12 @@ setup(
     author='German Silva',
     author_email='german@e4oss.ca',
     packages=['assignment_package'],
-    install_requires=['matplotlib', 'pandas']
+    install_requires=[
+        'matplotlib',
+        'yaml',
+        'argparser',
+        'requests',
+        'json',
+        'logging'
+    ]
 )
